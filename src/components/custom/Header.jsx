@@ -7,7 +7,7 @@ function Header() {
   const { user, isSignedIn } = useUser();
   return (
     <div className="p-3 px-5 flex justify-between shadow-md bg-gradient-to-r from-blue-900 via-gray-900 to-black text-white">
-      <img src="/logo.svg" width={40} height={40} alt="Logo" />
+      <img src="/logo.svg" width={100} height={100} alt="Logo" />
 
       {isSignedIn ? (
         <div className="flex items-center gap-2">
