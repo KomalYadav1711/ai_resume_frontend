@@ -7,9 +7,9 @@ import SignInPage from './auth'
 
 import Dashboard from './dashboard'
 import { ClerkProvider } from '@clerk/clerk-react'
-import Homes from './home'
+
 import Home from './home'
-import EditResume from './dashboard/resume/[resumeid]'
+import EditResume from './dashboard/resume/[resumeId]'
 import ViewResume from './my-resume'
 
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
