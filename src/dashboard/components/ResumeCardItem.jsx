@@ -87,12 +87,11 @@ function ResumeCardItem({resume,refreshData}) {
         </DropdownMenu>
 
         <AlertDialog open={openAlert}>
-        
         <AlertDialogContent>
           <AlertDialogHeader>
             <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
             <AlertDialogDescription>
-              This action cannot be undone. This will permanently delete your account
+              This action cannot be undone. This will permanently delete your account 
               and remove your data from our servers.
             </AlertDialogDescription>
           </AlertDialogHeader>
